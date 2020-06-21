@@ -16,7 +16,7 @@ const path = require('path');
 //     console.log(data)
 // });
 
-fs.writeFile(path.join(__dirname, 'os_ref.js'),'const os =require("fs"); ',err => {
-    if(err) throw err;
-    console.log('done')
-});
+// fs.writeFile(path.join(__dirname, 'os_ref.js'),'const os =require("fs"); ',err => {
+//     if(err) throw err;
+//     console.log('done')
+// });
